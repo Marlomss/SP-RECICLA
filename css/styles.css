@@ -31,16 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
-.mapa{
-	width: 50%;
-	height: 50%;
-}
-
-.mapa{
-	height: 35vw;
-	width: 5hv;
-}
 ol, ul {
 	list-style: none;
 }
@@ -70,15 +60,15 @@ html, body{
 }
 
 .logomarca{
-	width: 100px;
-	height: 100px;
-	background: url("../imagens/SP_Recicla_menor1.png") no-repeat 0 0;
-	display: block;
-	border-radius: 500px;
-  }
-  
+  width: 100px;
+  height: 100px;
+  background: url("../imagens/SP\ Recicla\ menor1.png") no-repeat 0 0;
+  display: block;
+  border-radius: 500px;
+}
+
 .logo{
-  /*float: right;*/
+  float: right;/
 }
 
 .menu{
@@ -91,9 +81,9 @@ html, body{
 }
 
 .menu__link{
-	color: #ffffff;
+	color: white;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 16px;
 	line-height: 16px;
 }
 
@@ -179,7 +169,7 @@ html, body{
 }
 
 .bt-red{
-	background: #773e3e;
+	background: #4c9419;
 	font-size: 16px;
 	font-weight: 600;
 	color: #ffffff;
@@ -192,7 +182,7 @@ html, body{
 }
 
 .bt-red:hover{
-	color: #FF4F4F;
+	color: #7ED957;
 	background: #ffffff;
 	box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
 }
@@ -200,7 +190,7 @@ html, body{
 .box-icone{
 	width: 80px;
 	height: 80px;
-	border: 2px solid #FF4F4F;
+	border: 2px solid #7ED957;
 	border-radius: 10px;
 	text-align: center;
 }
@@ -227,7 +217,7 @@ html, body{
 }
 
 .box-icone--red{
-	background: #FF4F4F;
+	background: #7ED957;
 }
 
 .icones{
@@ -235,9 +225,8 @@ html, body{
 }
 
 #about{
-	background: url(../imagens/bg-about.png) center 0 no-repeat;
-	min-height: 750px;
-	margin-bottom: 150px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 
 #about .center{
@@ -282,6 +271,7 @@ html, body{
 	width: 24px;
 	height: 24px;
 	background: url(../imagens/checklist.png) 0 0 no-repeat;
+	filter: hue-rotate(50%);
 	float: left;
 }
 
@@ -320,7 +310,7 @@ html, body{
 
 .bt-watch-video span{
 	float: left;
-	color: #FF4F4F;
+	color: #7ED957;
 	font-size: 19px;
 	font-weight: 500;
 	margin: 5px 10px 0 0;
@@ -370,7 +360,7 @@ html, body{
 
 .testemunha-profissao{
 	font-size: 14px;
-	color: #FF4F4F;
+	color: #7ED957;
 	font-weight: 600;
 	display: block;
 	margin: 10px 0 20px 0;
@@ -523,8 +513,8 @@ html, body{
 	text-decoration: none;
 }
 
-.post__link:hover .post__title{
-	color: #FF4F4F;
+.post_link:hover .post_title{
+	color: #7ED957;
 }
 
 .post__content{
@@ -749,6 +739,15 @@ html, body{
 	margin-top: 40px;
 }
 
+.company{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.post__imagem{
+	margin: 10px;
+}
+
 #menu-mobile{
 	float: right;
 	display: none;
@@ -760,6 +759,6 @@ html, body{
 	display: block;
 	width: 40px;
 	height: 4px;
-	background: #ffffff;
+	background: #083f0f;
 	margin-bottom: 5px;
 }
